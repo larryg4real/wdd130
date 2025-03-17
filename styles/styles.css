@@ -1,3 +1,25 @@
+:root {
+    --heading-background-color: darkblue;
+    --heading-font-size: 1.5rem;
+    --padding: 10px;
+    --border: 1px solid #000;
+    --height: auto;
+}
+
+h1 {
+    background-color: var(--heading-background-color);
+    font-size: var(--heading-font-size);
+}
+
+p {
+    padding: var(--padding);
+}
+
+img {
+    height: var(--height);
+    border: var(--border);
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
