@@ -1,82 +1,106 @@
-:root {
-    --heading-background-color: darkblue;
-    --heading-font-size: 1.5rem;
-    --padding: 10px;
-    --border: 1px solid #000;
-    --height: auto;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-h1 {
-    background-color: var(--heading-background-color);
-    font-size: var(--heading-font-size);
-}
+ :root {
+     --heading-background-color: rgb(50, 50, 223);
+     --heading-font-size: 1.5rem;
+     --padding: 10px;
+     --border: 1px solid #000;
+     --height: auto;
+ }
 
-p {
-    padding: var(--padding);
-}
+ h1 {
+     background-color: var(--heading-background-color);
+     font-size: var(--heading-font-size);
+ }
 
-img {
-    height: var(--height);
-    border: var(--border);
-}
+ p {
+     padding: var(--padding);
+ }
 
-nav {
-    background-color: darkblue;
-    padding: 10px;
-}
+ img {
+     height: var(--height);
+     border: var(--border);
+ }
 
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
-}
+ nav {
+     background-color: rgb(152, 152, 219);
+     padding: 10px;
+ }
 
-h1 {
-    color: darkblue;
-}
+ nav a {
+     color: white;
+     display: block;
+     padding: 2px;
+ }
 
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
+ h1 {
+     color: rgb(8, 250, 117);
+ }
 
-p {
-    padding: 10px;
-}
+ p {
+     padding: 10px;
+ }
 
-main {
-    max-width: 840px;
-}
+ main {
+     max-width: 840px;
+ }
 
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0/0.2);
-    /*1️⃣*/
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
+ aside {
+     width: 20rem;
+     margin: 1rem;
+     border: 1px solid rgb(0 0 0/0.2);
+     /*1️⃣*/
+     background-color: #eee;
+     color: #333;
+     text-align: center;
+ }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
+ aside img {
+     width: 200px;
+     height: auto;
+     position: relative;
+ }
 
-main img {
-    width: 150px;
-    height: auto;
-}
+ aside h2 {
+     top: 50px;
+     left: 200px;
 
-p {
-    padding: 0;
-}
+ }
 
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
+ main img {
+     width: 150px;
+     height: auto;
+     border: 1px solid steelblue;
+     padding: 2px;
+     box-shadow: 0 0 30px gray;
+     /* you most likely will have other declarations here */
+     float: right;
+     margin: 0 0 1rem 1rem;
+ }
+
+ p {
+     padding: 10px;
+ }
+
+ footer {
+     margin-top: 15px;
+     border-top: 1px solid #000;
+     text-align: center;
+ }
+
+ /* class selectors */
+ .box {
+     margin: 1rem;
+     border: 1px solid rgb(0 0 0/10%);
+     padding: 1rem;
+     background-color: rgb(183, 236, 236);
+     color: #000;
+ }
+
+ .indent {
+     padding-left: 2rem;
+ }
