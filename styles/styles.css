@@ -45,7 +45,7 @@
      font-family: Arial, Helvetica, sans-serif;
  }
 
- /* font practice */
+
  body {
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
@@ -101,7 +101,6 @@
      text-align: center;
  }
 
- /* class selectors */
  .box {
      margin: 1rem;
      border: 1px solid rgb(0 0 0/10%);

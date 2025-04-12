@@ -17,7 +17,6 @@ h2 {
 .hero div {
 	margin: 10px auto;
 	position: relative;
-	/* If removed, what happens? */
 }
 
 .hero div img {
