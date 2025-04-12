@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'roboto' sans-serif;
+    font-family: sans-serif;
     background-color: rgb(218, 231, 236);
     color: #27232f;
     padding: 5px;
@@ -190,7 +190,7 @@ input,
 button,
 select,
 textarea {
-    font-family: Roboto, arial, sans-serif;
+    font-family: arial, sans-serif;
 }
 
 label {
